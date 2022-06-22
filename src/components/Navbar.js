@@ -62,7 +62,7 @@ export default function Navbar(props) {
                   className="nav-link active"
                   aria-current="page"
                   to="/addContent"
-                  style={{ textDecoration: "none", display: "none" }}
+                  style={{ display: "none", textDecoration: "none" }}
                 >
                   Add Content
                 </Link>
@@ -73,7 +73,7 @@ export default function Navbar(props) {
                   className="nav-link active"
                   aria-current="page"
                   to="/manageContent"
-                  style={{ textDecoration: "none", display: "none" }}
+                  style={{ display: "none", textDecoration: "none" }}
                 >
                   Manage Content
                 </Link>
